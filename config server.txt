@@ -1,0 +1,40 @@
+config server
+api gatway
+service discovery 
+service registry 
+circuit breaker
+CORE JAVA
+What is the difference between == and .equals() in Java?
+How does Java achieve platform independence?
+Explain the concept of immutability with respect to the String class.
+How does Java handle memory management and garbage collection?
+What are the different types of class loaders in Java?
+What is the difference between final, finally, and finalize()?
+How does the HashMap work internally?
+What are the best practices for overriding equals() and hashCode()?
+What is the difference between ArrayList and LinkedList?
+How does Java handle multithreading and synchronization?
+🔹 Logical Coding Challenges
+Detect a loop in a linked list.
+Implement a thread-safe singleton class.
+Write a program to find the first non-repeating character in a string.
+Reverse a linked list recursively.
+Find the longest substring without repeating characters.
+Implement a producer-consumer problem using wait/notify.
+Design a LRU cache using Java collections.
+Write a program to check if a binary tree is a BST.
+Implement a custom HashMap or ArrayList.
+Find the missing number in an array of 1 to N.
+🔹 Java 8 and Beyond
+What are functional interfaces and how are they used?
+Explain the use of Optional in Java 8.
+How do streams work in Java 8?
+What is the difference between map() and flatMap()?
+How does CompletableFuture work in Java 8?
+🔹 Design and Architecture
+How would you design a thread pool executor?
+Explain SOLID principles with Java examples.
+What design patterns have you used in your projects?
+How would you handle high concurrency in a web application?
+How do you ensure scalability and maintainability in your codebase?
+Would you lik

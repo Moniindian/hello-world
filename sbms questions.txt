@@ -1,0 +1,43 @@
+what is config server how we implement?
+how will you access properties file in java or how many ways ?
+what is profiles or spring profiles?
+what is exception handling in your project?
+how you are monitoring application hence devo or new relic?
+how you configure devo and new relic?
+circuit breaker design pattern or hystrix and how you implement?
+service discovery and service resitry?
+api gateway?
+spring boot actuactor and how to implement?
+all annotation in the project?
+what is dependency injection and how many type are there and which dependency in jection we are using in the project?
+difference between spring and spring boot?
+map and flatMap?
+project flow?
+static and default method in interfaces?
+
+Default Status Codes REST
+
+For the resources exposed, we use a set of default status codes:
+
+200 OK: For plain GET requests.
+
+201 Created: For POST and PUT requests that create new resources.
+
+204 No Content: For PUT, PATCH, and DELETE requests when the configuration is set to not return response bodies for resource updates (RepositoryRestConfiguration.setReturnBodyOnUpdate(…)). If the configuration value is set to include responses for PUT, 200 OK is returned for updates, and 201 Created is returned for resource created through PUT.
+
+If the configuration values (RepositoryRestConfiguration.returnBodyOnUpdate(…) and RepositoryRestConfiguration.returnBodyCreate(…)) are explicitly set to null — which they are by default --, the presence of the HTTP Accept header is used to determine the response code. Read more on this in the detailed description of collection and item resources.Default Status Codes
+For the resources exposed, we use a set of default status codes:
+
+200 OK: For plain GET requests.
+
+201 Created: For POST and PUT requests that create new resources.
+
+204 No Content: For PUT, PATCH, and DELETE requests when the configuration is set to not return response bodies for resource updates (RepositoryRestConfiguration.setReturnBodyOnUpdate(…)). If the configuration value is set to include responses for PUT, 200 OK is returned for updates, and 201 Created is returned for resource created through PUT.
+
+If the configuration values (RepositoryRestConfiguration.returnBodyOnUpdate(…) and RepositoryRestConfiguration.returnBodyCreate(…)) are explicitly set to null — which they are by default --, the presence of the HTTP Accept header is used to determine the response code. Read more on this in the detailed description of collection and item resources.
+
+
+
+
+
+
